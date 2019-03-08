@@ -1,0 +1,27 @@
+---
+layout: wiki
+---
+<h1>Index</h1>
+<hr>
+<div class="top-30"></div>
+<h2>Indice documentazione</h2>
+<div class="index-box">
+  {% for doc in site.data.index.page-list %}
+    {% for d in site.docs %}
+      {% if d.id == doc.id %}
+      <div class="index-item">
+        <a href='{{d.url}}'>{{d.title}}</a>
+      </div>
+      {% endif %}
+    {% endfor %}
+  {% endfor %}
+</div>
+<div class="top-30"></div>
+<h2>Tutte le pagine</h2>
+<div class="index-box">
+  {% for doc in site.docs %}
+  <div class="index-item">
+    <a href="{{doc.url}}">{{doc.title}}</a>
+  </div>
+  {% endfor %}
+<div>
