@@ -58,3 +58,5 @@ exclude:
 collections:
   docs:
     output: true
+  guides:
+    output: true
