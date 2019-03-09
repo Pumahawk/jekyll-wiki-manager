@@ -5,5 +5,16 @@ layout: default
 <main class="page-content" aria-label="Content">
   <div class="wrapper">
     {{ content }}
+    <div class="top-30"></div>
+    <hr>
+    <div class="top-30"></div>
+    <div class="row">
+      {% if page.previus_doc %}
+        <div class="col-sm"><a href="{{page.previus_doc}}"><< Previus</a></div>
+      {% endif %}
+      {% if page.next_doc %}
+        <div class="col-sm"><a href="{{page.next_doc}}">Next >></a></div>
+      {% endif %}
+    </div>
   </div>
 </main>
