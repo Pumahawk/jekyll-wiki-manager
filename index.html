@@ -1,25 +1,18 @@
 ---
 layout: wiki
 ---
-<h1>Index</h1>
+{% if site.data.home.intro.output %}
+  {% assign intro = site.docs | where: "id", site.data.home.intro.id | first %}
+  {{intro.content}}
+  
+{% endif %}
+
 <hr>
+{% if site.data.home.indexDocs.output %}
+  {% include index-docs.html %}
+{% endif %}
 <div class="top-30"></div>
-<h2>Indice documentazione</h2>
-<div class="index-box">
-  {% for doInList in site.data.index.page-list %}
-  {% assign doc = site.docs | where: "id", doInList.id | first %}
-      <div class="index-item">
-        {{id-list}}
-        <a href='{{doc.url}}'>{{doc.title}}</a>
-      </div>
-  {% endfor %}
-</div>
-<div class="top-30"></div>
-<h2>Tutte le pagine</h2>
-<div class="index-box">
-  {% for doc in site.docs %}
-  <div class="index-item">
-    <a href="{{doc.url}}">{{doc.title}}</a>
-  </div>
-  {% endfor %}
-<div>
+<hr>
+{% if site.data.home.allDocs.output %}
+  {% include all-docs.html %}
+{% endif %}
