@@ -6,14 +6,12 @@ layout: wiki
 <div class="top-30"></div>
 <h2>Indice documentazione</h2>
 <div class="index-box">
-  {% for doc in site.data.index.page-list %}
-    {% for d in site.docs %}
-      {% if d.id == doc.id %}
+  {% for doInList in site.data.index.page-list %}
+  {% assign doc = site.docs | where: "id", doInList.id | first %}
       <div class="index-item">
-        <a href='{{d.url}}'>{{d.title}}</a>
+        {{id-list}}
+        <a href='{{doc.url}}'>{{doc.title}}</a>
       </div>
-      {% endif %}
-    {% endfor %}
   {% endfor %}
 </div>
 <div class="top-30"></div>

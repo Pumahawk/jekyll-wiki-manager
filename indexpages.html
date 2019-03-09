@@ -2,11 +2,8 @@
 layout: page
 ---
 
-{% for d in site.data.index.page-list %}
-  {% for doc in site.docs %}
-    {% if d.id == doc.id %}
-      {{doc.content}}
-    {% endif %}
-  {% endfor %}
+{% for docInIndex in site.data.index.page-list %}
+{% assign doc =  site.docs | where: "id", docInIndex.id | first%}
+  {{doc.content}}
   <hr>
 {% endfor %}
