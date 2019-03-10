@@ -1,6 +1,7 @@
 ---
 layout: wiki
 previus_doc: /docs/Intro.html
+next_doc: /docs/Why use Jeykyll-Wiki-Manager.html
 title: What is Jekyll
 ---
 # What is Jekyll
