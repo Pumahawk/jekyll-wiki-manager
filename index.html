@@ -8,13 +8,12 @@ layout: wiki
 {% endif %}
 
 <hr>
+{% include guide-list.html %}
+<hr>
 {% if site.data.home.indexDocs.output %}
   {% include index-docs.html %}
 {% endif %}
-<div class="top-30"></div>
 <hr>
 {% if site.data.home.allDocs.output %}
   {% include all-docs.html %}
 {% endif %}
-
-{% include guide-list.html %}
