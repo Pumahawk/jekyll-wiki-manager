@@ -1,6 +1,6 @@
 ---
 layout: wiki
-next_doc: /docs/What is Jekyll.html
+next_doc: /docs/basic/What is Jekyll.html
 title: Welcome to Jekyll-Wiki-Manager
 ---
 

@@ -1,6 +1,6 @@
 intro: 
   output: true
-  id: /docs/Intro
+  id: /docs/basic/Intro
 indexDocs:
   output: true
   title: Index documents

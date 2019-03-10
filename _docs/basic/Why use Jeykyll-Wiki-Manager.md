@@ -1,6 +1,6 @@
 ---
 layout: wiki
-previus_doc: /docs/What is Jekyll.html
+previus_doc: /docs/basic/What is Jekyll.html
 ---
 
 # Why use Jekyll-Wiki-Manager

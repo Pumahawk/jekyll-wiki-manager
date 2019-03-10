@@ -1,4 +1,4 @@
 page-list: 
-  - id: /docs/Intro
-  - id: /docs/What is Jekyll
-  - id: /docs/Why use Jeykyll-Wiki-Manager
+  - id: /docs/basic/Intro
+  - id: /docs/basic/What is Jekyll
+  - id: /docs/basic/Why use Jeykyll-Wiki-Manager
