@@ -35,4 +35,10 @@ src: local('Material Icons'),
 
   /* Support for IE. */
   font-feature-settings: 'liga';
+  
+  vertical-align: middle;
+}
+
+.title-icon {
+  padding: 5px;
 }

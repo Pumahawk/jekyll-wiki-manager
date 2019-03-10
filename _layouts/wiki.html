@@ -10,10 +10,10 @@ layout: default
     <div class="top-30"></div>
     <div class="row">
       {% if page.previus_doc %}
-        <div class="col-sm"><a href="{{page.previus_doc}}"><< Previus</a></div>
+        <div class="col-sm"><a href="{{page.previus_doc}}"><button type="button" class="btn btn-outline-dark"><i class="material-icons">navigate_before</i></button></a></div>
       {% endif %}
       {% if page.next_doc %}
-        <div class="col-sm"><a href="{{page.next_doc}}">Next >></a></div>
+        <div class="col-sm"><a href="{{page.next_doc}}"><button type="button" class="btn btn-outline-dark"><i class="material-icons">navigate_next</i></button></a></div>
       {% endif %}
     </div>
   </div>
