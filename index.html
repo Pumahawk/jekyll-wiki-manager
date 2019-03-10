@@ -4,16 +4,7 @@ layout: wiki
 {% if site.data.home.intro.output %}
   {% assign intro = site.docs | where: "id", site.data.home.intro.id | first %}
   {{intro.content}}
-  
-{% endif %}
-
-<hr>
-{% include guide-list.html %}
-<hr>
-{% if site.data.home.indexDocs.output %}
-  {% include index-docs.html %}
-{% endif %}
-<hr>
-{% if site.data.home.allDocs.output %}
-  {% include all-docs.html %}
+  {% if intro.next_doc %}
+    <a href="{{intro.next_doc}}">Continue >></a>
+  {% endif %}
 {% endif %}
