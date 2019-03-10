@@ -1,8 +1,8 @@
 ---
 layout: wiki
-title: How to install Jekyll
+title: What do you need
 ---
 
-# How to install Jekyll
+# What do you need
 
 Continue...
