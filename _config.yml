@@ -40,20 +40,21 @@ exclude:
  - vendor/gems/
  - vendor/ruby/
 # Ignore bootstrap part that are not important to public
- - components_bower/bootstrap/site
- - components_bower/bootstrap/build
- - components_bower/bootstrap/js
- - components_bower/bootstrap/nuget
- - components_bower/bootstrap/scss
- - components_bower/bootstrap/*.md
- - components_bower/bootstrap/*.json
- - components_bower/bootstrap/*.lock
- - components_bower/bootstrap/Gemfile
- - components_bower/bootstrap/CNAME
- - components_bower/bootstrap/package.js
+ - bower_components/bootstrap/site
+ - bower_components/bootstrap/build
+ - bower_components/bootstrap/js
+ - bower_components/bootstrap/nuget
+ - bower_components/bootstrap/scss
+ - bower_components/bootstrap/*.md
+ - bower_components/bootstrap/*.json
+ - bower_components/bootstrap/*.lock
+ - bower_components/bootstrap/Gemfile
+ - bower_components/bootstrap/CNAME
+ - bower_components/bootstrap/package.js
 # Ignore jquery part that are not important to public
- - components_bower/jquery/external
- - components_bower/jquery/src
+ - bower_components/jquery/external
+ - bower_components/jquery/src
+ - bower_components/material-design-icons
 
 collections:
   docs:
