@@ -39,6 +39,7 @@ exclude:
  - vendor/cache/
  - vendor/gems/
  - vendor/ruby/
+ - docs
 # Ignore bootstrap part that are not important to public
  - bower_components/bootstrap/site
  - bower_components/bootstrap/build
