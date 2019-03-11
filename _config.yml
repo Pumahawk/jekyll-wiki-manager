@@ -45,6 +45,7 @@ exclude:
  - bower_components/bootstrap/js
  - bower_components/bootstrap/nuget
  - bower_components/bootstrap/scss
+ - bower_components/bootstrap/dist/css
  - bower_components/bootstrap/*.md
  - bower_components/bootstrap/*.json
  - bower_components/bootstrap/*.lock
@@ -54,6 +55,9 @@ exclude:
 # Ignore jquery part that are not important to public
  - bower_components/jquery/external
  - bower_components/jquery/src
+ - bower_components/jquery/*.txt
+ - bower_components/jquery/*.json
+ - bower_components/jquery/*.md
 # Ignore material-design-icons
  - bower_components/material-design-icons/action
  - bower_components/material-design-icons/alert
@@ -72,6 +76,9 @@ exclude:
  - bower_components/material-design-icons/social
  - bower_components/material-design-icons/sprites
  - bower_components/material-design-icons/toggle
+ - bower_components/material-design-icons/*.js
+ - bower_components/material-design-icons/*.json
+ - bower_components/material-design-icons/README.md
 
 collections:
   docs:
