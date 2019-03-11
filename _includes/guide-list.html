@@ -3,7 +3,7 @@
 <div class="index-box">
   {% for guide in site.guides %}
     <div class="index-item">
-      <a href="{{guide.url}}">{{guide.title}}</a>
+      <a href="{{guide.url | relative_url}}">{{guide.title}}</a>
     </div>
   {% endfor %}
 </div>

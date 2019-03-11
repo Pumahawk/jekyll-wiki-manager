@@ -12,7 +12,7 @@ Here there are different guide that help you to learn about this software.
 
 Good Work!
 
-* [Install Jekyll-Wiki-Manager](/guides/install.html)
-* [Write your first documentation](/guides/stepbystep.html)
-* [Make different guides](/guides/guide.html)
-* [Use single page wiki generator](/guides/singlepage.html)
+* [Install Jekyll-Wiki-Manager]({{"/guides/install.html" | relative_url}})
+* [Write your first documentation]({{"/guides/stepbystep.html" | relative_url}})
+* [Make different guides]({{"/guides/guide.html" | relative_url}})
+* [Use single page wiki generator]({{"/guides/singlepage.html" | relative_url}})

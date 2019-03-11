@@ -8,7 +8,7 @@ layout: wiki
   {% for docK in page.docs %}
   {% assign doc = site.docs | where: "id", docK | first%}
     <div class="index-item">
-      <a href="{{doc.url}}">{{doc.title}}</a>
+      <a href="{{doc.url | relative_url}}">{{doc.title}}</a>
     </div>
   {% endfor %}
 </div>

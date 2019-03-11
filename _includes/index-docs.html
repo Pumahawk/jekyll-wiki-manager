@@ -5,7 +5,7 @@
   {% assign doc = site.docs | where: "id", doInList.id | first %}
     <div class="index-item">
       {{id-list}}
-      <a href='{{doc.url}}'>{{doc.title}}</a>
+      <a href='{{doc.url | relative_url}}'>{{doc.title}}</a>
     </div>
   {% endfor %}
 </div>

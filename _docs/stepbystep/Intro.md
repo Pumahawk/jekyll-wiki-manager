@@ -6,7 +6,7 @@ next_doc: /docs/stepbystep/Make Guide
 
 # Intro
 
-Completed [installation guide](/guides/install.html) you can learn how to make 
+Completed [installation guide]({{"/guides/install.html" | relative_url}}) you can learn how to make 
 you firt documentation.
 
 We can begin with a simple documentation.
