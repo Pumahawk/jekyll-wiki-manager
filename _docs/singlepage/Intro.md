@@ -1,8 +1,7 @@
 ---
 layout: wiki
 title: How to use single page documentation
+alert: todo
 ---
-
-# How to use single page documentation
 
 Continue...

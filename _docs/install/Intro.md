@@ -2,9 +2,9 @@
 layout: wiki
 title: What do you need
 next_doc: /docs/install/Install Jekyll-Wiki-Manager
+breadcrumb:
+  - /guides/install
 ---
-
-# What do you need
 
 If you want use di application you must know that you need some application installed
 on your pc.

@@ -6,6 +6,7 @@ description: >-
 docs:
  - /docs/install/Intro
  - /docs/install/Install Jekyll-Wiki-Manager
+breadcrumb: true
 ---
 
 In this guide your will know what you need to use Jekyll-Wiki-Manager and 

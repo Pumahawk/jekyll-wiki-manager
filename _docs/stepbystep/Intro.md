@@ -2,9 +2,9 @@
 layout: wiki
 title: Step by step
 next_doc: /docs/stepbystep/Make Guide
+breadcrumb:
+  - /guides/stepbystep
 ---
-
-# Intro
 
 Completed [installation guide]({{"/guides/install.html" | relative_url}}) you can learn how to make 
 you firt documentation.

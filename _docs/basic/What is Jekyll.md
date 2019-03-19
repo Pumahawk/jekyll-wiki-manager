@@ -3,9 +3,9 @@ layout: wiki
 previus_doc: /docs/basic/Intro.html
 next_doc: /docs/basic/Why use Jeykyll-Wiki-Manager.html
 title: What is Jekyll
+breadcrumb:
+  - /guides/basic
 ---
-# What is Jekyll
-
 I'm not talking about Dr. Jekyll but I'm talking about a really famous software
 written in ruby to make static website. Of course this small description doeasn't
 let you undertand the adnvantage to use __Jekyll__ so let me say something on this

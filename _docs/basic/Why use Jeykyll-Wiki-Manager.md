@@ -2,10 +2,9 @@
 layout: wiki
 previus_doc: /docs/basic/What is Jekyll.html
 next_doc: /docs/basic/Begin.html
+breadcrumb:
+  - /guides/basic
 ---
-
-# Why use Jekyll-Wiki-Manager
-
 If Jekyll is so beautifull why we should use Jekyll-Wiki-Manager to write documentation
 and not use Jekyll directly?
 

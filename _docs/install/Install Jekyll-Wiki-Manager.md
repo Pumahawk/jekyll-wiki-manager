@@ -2,9 +2,9 @@
 layout: wiki
 title: Install Jekyll-Wiki-Manager
 previus_doc: /docs/install/Intro
+breadcrumb:
+  - /guides/install
 ---
-
-# Install Jekyll-Wiki-Manager
 
 Install it's really simple. All'out need is donwload or clone repository and 
 initialize it.

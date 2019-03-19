@@ -2,10 +2,9 @@
 layout: wiki
 next_doc: /docs/basic/What is Jekyll.html
 title: Welcome to Jekyll-Wiki-Manager
+breadcrumb:
+  - /guides/basic
 ---
-
-# Welcome to Jekyll-Wiki-Manager
-
 __Jelly-Wiki-Manager__ is en initialed Jekyll project where everything is optimized
 to write documentation.
 
